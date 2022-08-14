@@ -108,6 +108,25 @@ body {
   height: 100%;
 }
 
+header
+footer,
+main {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header {
+    font-size: 3em;
+    justify-content: left;
+}
+
+main {
+    font-size: 2em;
+    justify-content: left;
+}
+
 .wrapper {
   display: flex;
   font-weight: 700;
@@ -128,7 +147,10 @@ body {
   border: 5px solid #694f75;
 }
 
-
+footer {
+    font-size: 2em;
+    justify-content: left;
+}
 
 
 /* ==========================================================================
